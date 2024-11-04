@@ -1,0 +1,5 @@
+.main {
+ @include onlymobile {
+  padding-top: rem(131px);
+ }
+}

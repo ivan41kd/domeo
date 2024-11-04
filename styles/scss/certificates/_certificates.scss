@@ -1,0 +1,229 @@
+.certificates {
+ padding-bottom: rem(120px);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ overflow: hidden;
+ width: 100vw;
+ &__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ &__advice {
+  align-items: center;
+  display: flex;
+  margin-bottom: rem(17px);
+  column-gap: rem(6px);
+ }
+ &__advice-text {
+  color: rgba(155, 155, 155, 1);
+  font-size: rem(12px);
+  line-height: rem(16.2px);
+ }
+ &__advice-icon {
+  width: rem(24px);
+  height: rem(24px);
+  animation: moveicon 2s infinite linear;
+ }
+ &__slides {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+ }
+
+ &__slide {
+  border-radius: rem(10px);
+  width: rem(588px) !important;
+  height: rem(242px);
+  padding-top: rem(37px);
+  padding-bottom: rem(29px);
+  padding-left: rem(32px);
+  padding-right: rem(32px);
+  display: flex !important;
+  column-gap: rem(80px);
+  background: rgba(72, 72, 72, 0.3);
+  border: 1px solid rgba(72, 72, 72, 1);
+ }
+ &__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: rem(22px);
+ }
+ &__info-text,
+ &__info-title {
+  width: rem(292px);
+ }
+ &__info-text {
+  font-size: rem(14px);
+  line-height: rem(17.5px);
+ }
+ &__info-title {
+  font-size: rem(15px);
+  line-height: rem(18.5px);
+ }
+ &__info-text span {
+  font-weight: 700;
+ }
+ &__stars {
+  display: flex;
+  margin-bottom: rem(10px);
+ }
+ &__star {
+  width: rem(80px);
+ }
+ &__info-logo.concol {
+  width: rem(60px);
+ }
+ &__info-logo.cian {
+  width: rem(97px);
+ }
+ &__info-logo.comsomol {
+  width: rem(158px);
+ }
+ &__info-logo.mrgroup {
+  width: rem(135px);
+ }
+ &__info-logo.remrating {
+  width: rem(139px);
+ }
+ &__info-logo.stroy {
+  width: rem(112.73px);
+ }
+ &__info-logo.records {
+  width: rem(125.8px);
+ }
+ &__info-logo.villagio {
+  width: rem(134.4px);
+ }
+ &__info-logo.aoh {
+  width: rem(161px);
+ }
+ &__info-logo.academy {
+  width: rem(161px);
+ }
+ &__info-logo.expostroy {
+  width: rem(154px);
+ }
+ &__info-logo.academy-saint {
+  width: rem(235px);
+ }
+ &__info-logo.records_second {
+  width: rem(125.8px);
+ }
+ &__info-logo.pronovo {
+  width: rem(56px);
+ }
+ &__info-logo.tarkett {
+  width: rem(110px);
+ }
+ &__info-logo.petrovich {
+  width: rem(158px);
+ }
+ &__info-logo.miel {
+  width: rem(76.53px);
+ }
+ &__info-logo.maria {
+  width: rem(142.37px);
+ }
+ &__info-logo.mastergrad {
+  width: rem(157px);
+ }
+ &__document {
+  position: relative;
+  &::after {
+   display: block;
+   width: rem(48.86px);
+   height: rem(82.69px);
+   position: absolute;
+   top: 10%;
+   right: -40%;
+   content: '';
+   background: url('../../../assets/img/certificates/right-wreath.svg');
+   background-size: 100%;
+  }
+  &::before {
+   display: block;
+   width: rem(48.86px);
+   height: rem(82.69px);
+   position: absolute;
+   top: 10%;
+   left: -40%;
+   content: '';
+   background: url('../../../assets/img/certificates/left-wreath.svg');
+   background-size: 100%;
+  }
+ }
+ &__document-img {
+  width: rem(108.07px);
+  height: rem(153.17px);
+ }
+ @include onlymobile {
+  &__stars {
+   justify-content: center;
+  }
+
+  &__info {
+   justify-content: center;
+   align-items: center;
+   flex-direction: column-reverse;
+  }
+  &__info-title {
+   width: auto;
+   text-align: center;
+  }
+  &__info-text {
+   font-size: rem(15px);
+   line-height: rem(18.75px);
+   text-align: center;
+   margin-bottom: rem(10px);
+   width: auto;
+   padding-left: rem(23px);
+   padding-right: rem(23px);
+  }
+  &__slide {
+   padding: 0;
+   padding-top: rem(20px);
+   padding-bottom: rem(30px);
+   width: rem(280px) !important;
+   flex-direction: column;
+   align-items: center;
+  }
+  &__document {
+   width: rem(115px);
+   height: rem(163px);
+  }
+  &__document-img {
+   width: rem(115px);
+   height: rem(163px);
+  }
+ }
+}
+.grabbing {
+ cursor: grabbing;
+ transition: none;
+}
+
+@keyframes moveicon {
+ 0% {
+  opacity: 1;
+  transform: translateX(0);
+ }
+ 20% {
+  opacity: 1;
+  transform: translateX(-30%);
+ }
+ 35% {
+  opacity: 0;
+  transform: translateX(-70%);
+ }
+ 45% {
+  opacity: 0;
+  transform: translateX(0%);
+ }
+ 55% {
+  opacity: 1;
+ }
+}

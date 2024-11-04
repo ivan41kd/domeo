@@ -1,0 +1,129 @@
+.socials {
+ padding-bottom: rem(120px);
+ &__wrapper {
+  background: rgba(72, 72, 72, 0.3);
+  border: rem(1px) solid rgba(72, 72, 72, 1);
+  padding-top: rem(40px);
+  padding-bottom: rem(32px);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: rem(30px);
+  width: rem(768px);
+ }
+ &__slider {
+  position: relative;
+  width: rem(493px);
+ }
+ &__slider-wrapper {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+ }
+ &__slides {
+  display: flex;
+  transition: 0.5s;
+ }
+ &__slide,
+ &__slide-item {
+  width: rem(493px);
+ }
+ &__slider-left,
+ &__slider-right {
+  z-index: 3;
+  top: 40%;
+  width: rem(32px);
+  height: rem(32px);
+  position: absolute;
+  transition: 0.3s;
+  cursor: pointer;
+ }
+ &__slider-circle {
+  transition: 0.3s;
+ }
+ &__slider-left:hover &__slider-circle,
+ &__slider-right:hover &__slider-circle {
+  fill: rgba(36, 36, 36, 1);
+  transition: 0.3s;
+ }
+ &__slider-left {
+  left: -4%;
+ }
+ &__slider-right {
+  right: -4%;
+ }
+ &__media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ &__media-list {
+  display: flex;
+  column-gap: rem(12px);
+ }
+ &__media-title {
+  font-weight: 600;
+  font-size: rem(14px);
+  line-height: rem(18.9px);
+  color: rgba(126, 126, 126, 1);
+  text-transform: uppercase;
+  margin-bottom: rem(15px);
+ }
+ &__media-list-item {
+  cursor: pointer;
+  padding: rem(6px);
+  row-gap: rem(6px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+  border-radius: rem(8px);
+  background: transparent;
+  border: rem(0px) solid rgba(67, 67, 67, 0.3);
+  &:hover {
+   background: rgba(67, 67, 67, 0.1);
+   transition: 0.3s;
+   border: rem(1px) solid rgba(67, 67, 67, 0.3);
+  }
+ }
+ &__media-list-item.active {
+  border: rem(1px) solid rgba(67, 67, 67, 1);
+  background: rgba(67, 67, 67, 0.3);
+  backdrop-filter: blur(rem(4px));
+ }
+ &__media-icon {
+  width: rem(45px);
+  height: rem(45px);
+ }
+ &__media-subscriber {
+  display: flex;
+  align-items: center;
+ }
+ &__media-subscriber-icon {
+  width: rem(10.63px);
+  height: rem(12.14px);
+  margin-right: rem(4px);
+ }
+ &__media-subscriber-value {
+  font-size: rem(16px);
+  line-height: rem(21.6px);
+  color: rgba(206, 206, 209, 1);
+ }
+ @include onlymobile {
+  &__wrapper {
+   width: 100%;
+  }
+  &__slider {
+   width: rem(270px);
+  }
+  &__slide {
+   width: rem(280px);
+  }
+  &__media-list {
+   width: 90%;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+ }
+}
