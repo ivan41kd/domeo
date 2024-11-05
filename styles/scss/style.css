@@ -1206,6 +1206,11 @@ li {
   padding-right: 1.5625rem;
   border-radius: 0.375rem;
 }
+.popup__sale-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .popup__sale-text {
   font-weight: 400;
   font-size: 0.875rem;

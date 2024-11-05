@@ -18,15 +18,14 @@ const mediaItems = document.querySelectorAll('.socials__media-list-item');
 let index = 1;
 let isPaused = false;
 
-// Set initial position
-slides.style.transform = `translateX(${-firstSlide.offsetWidth}px)`;
+slides.style.transform = `translateX(${-firstSlide.offsetWidth}px)`; // Позиция первого слайда
 
 const next = () => {
  if (isPaused) return;
 
  index++;
  slides.style.transition = 'transform 0.5s ease-in-out';
- slides.style.transform = `translateX(${-index * firstSlide.offsetWidth}px)`;
+ slides.style.transform = `translateX(${-index * firstSlide.offsetWidth}px)`; // Позиционирование слайда
 
  if (index === allSlidesWithClones.length - 1) {
   setTimeout(() => {

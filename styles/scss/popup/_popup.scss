@@ -99,6 +99,11 @@
   padding-right: rem(25px);
   border-radius: rem(6px);
  }
+ &__sale-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
  &__sale-text {
   font-weight: 400;
   font-size: rem(14px);
