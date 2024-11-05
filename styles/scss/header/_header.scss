@@ -2,12 +2,12 @@
  width: rem(768px);
  padding-top: rem(30px);
  padding-bottom: rem(60px);
- z-index: 100;
+ z-index: 101;
  background: black;
  &__wrapper {
   display: flex;
   justify-content: space-between;
-  z-index: 100;
+  z-index: 101;
  }
  &__burger {
   display: none;

@@ -141,13 +141,13 @@ li {
   width: 48rem;
   padding-top: 1.875rem;
   padding-bottom: 3.75rem;
-  z-index: 100;
+  z-index: 101;
   background: black;
 }
 .header__wrapper {
   display: flex;
   justify-content: space-between;
-  z-index: 100;
+  z-index: 101;
 }
 .header__burger {
   display: none;
@@ -1132,6 +1132,7 @@ li {
   cursor: pointer;
   width: 1.875rem;
   height: 1.875rem;
+  z-index: 5;
 }
 .popup__wrapper.disable {
   display: none;

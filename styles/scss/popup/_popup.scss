@@ -27,6 +27,7 @@
   cursor: pointer;
   width: rem(30px);
   height: rem(30px);
+  z-index: 5;
  }
  &__wrapper.disable {
   display: none;
