@@ -257,9 +257,10 @@ li {
     content: "";
     right: 0;
     top: 0;
-    width: 0.5625rem;
+    width: 0.4375rem;
     height: 0.5625rem;
     background: url('data:image/svg+xml,<svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 4.5L0.25 8.39711L0.25 0.602886L7 4.5Z" fill="white"/></svg>') no-repeat;
+    background-size: 100%;
   }
   .header__nav-item:nth-last-child(1) {
     border-bottom: 0;
