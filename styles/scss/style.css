@@ -1455,6 +1455,7 @@ li {
   .popup {
     width: 20.9375rem;
     height: 37.5rem;
+    top: 15%;
   }
   .popup__wrapper {
     flex-direction: column;

@@ -345,6 +345,7 @@
  @include onlymobile {
   width: rem(335px);
   height: rem(600px);
+  top: 15%;
   &__wrapper {
    flex-direction: column;
    align-items: center;
