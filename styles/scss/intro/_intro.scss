@@ -188,9 +188,9 @@
    text-align: start;
   }
   &__button {
-   transition: 1.4s;
    width: rem(275px);
    position: relative;
+   transition: 0s;
   }
   &__button-wrapper {
    transition: 1.4s padding;
@@ -203,7 +203,6 @@
    width: rem(78px);
    height: rem(78px);
    position: absolute;
-   transition: 1.4s;
   }
   &__button-wrapper.middle &__button-icon {
    left: 35%;
