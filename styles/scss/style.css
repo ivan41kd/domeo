@@ -552,7 +552,7 @@ li {
     width: 4.875rem;
     height: 4.875rem;
     position: absolute;
-    transition: 1.7s;
+    transition: 0.4s;
   }
   .intro__button-wrapper.middle .intro__button-icon {
     left: 35%;
