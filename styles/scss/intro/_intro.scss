@@ -186,6 +186,7 @@
    text-align: start;
   }
   &__button {
+   transition: 0s;
    width: rem(275px);
    position: relative;
   }
@@ -193,6 +194,12 @@
    transition: 0s;
    width: rem(275px);
    position: relative;
+  }
+  &__button-wrapper.middle &__button-icon {
+   left: 35%;
+  }
+  &__button-wrapper.end &__button-icon {
+   left: 75%;
   }
  }
 }

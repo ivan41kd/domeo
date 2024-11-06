@@ -537,6 +537,7 @@ li {
     text-align: start;
   }
   .intro__button {
+    transition: 0s;
     width: 17.1875rem;
     position: relative;
   }
@@ -544,6 +545,12 @@ li {
     transition: 0s;
     width: 17.1875rem;
     position: relative;
+  }
+  .intro__button-wrapper.middle .intro__button-icon {
+    left: 35%;
+  }
+  .intro__button-wrapper.end .intro__button-icon {
+    left: 75%;
   }
 }
 
