@@ -6,8 +6,8 @@ const swiper = new Swiper('.swiper', {
  loop: true,
  coverflowEffect: {
   rotate: 0,
-  stretch: 5,
-  depth: 500,
+  stretch: -30,
+  depth: 100,
   scale: 1,
  },
  autoplay: {

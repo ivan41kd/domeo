@@ -45,6 +45,12 @@
   column-gap: rem(80px);
   background: rgba(72, 72, 72, 0.3);
   border: 1px solid rgba(72, 72, 72, 1);
+  opacity: 0.2;
+  transition: 0.3s;
+ }
+ &__slide.swiper-slide-active {
+  opacity: 1 !important;
+  transition: 0.3s;
  }
  &__info {
   display: flex;
@@ -191,6 +197,7 @@
    flex-direction: column;
    align-items: center;
   }
+
   &__document {
    width: rem(115px);
    height: rem(163px);
