@@ -395,8 +395,7 @@ li {
 }
 .intro__button-wrapper {
   transition: 1.7s;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 17.1875rem;
   position: relative;
 }
 .intro__button-icon {
@@ -421,6 +420,8 @@ li {
   border: 0.09375rem rgb(208, 254, 6) solid;
   background: transparent;
   line-height: 1.3125rem;
+  font-size: 1rem;
+  text-wrap: nowrap;
 }
 .intro__button-wrapper.middle .intro__button {
   color: white;
@@ -432,7 +433,7 @@ li {
   left: 35%;
 }
 .intro__button-wrapper.end .intro__button-icon {
-  left: 76%;
+  left: 80%;
 }
 .intro__button-wrapper.end .intro__button {
   color: white;

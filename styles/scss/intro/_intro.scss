@@ -43,7 +43,7 @@
  }
  &__button-wrapper {
   transition: 1.7s;
-  width: fit-content;
+  width: rem(275px);
   position: relative;
  }
  &__button-icon {
@@ -68,6 +68,8 @@
   border: rem(1.5px) rgba(208, 254, 6, 1) solid;
   background: transparent;
   line-height: rem(21px);
+  font-size: rem(16px);
+  text-wrap: nowrap;
  }
  &__button-wrapper.middle &__button {
   color: white;
@@ -80,7 +82,7 @@
   left: 35%;
  }
  &__button-wrapper.end &__button-icon {
-  left: 76%;
+  left: 80%;
  }
  &__button-wrapper.end &__button {
   color: white;
