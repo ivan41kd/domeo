@@ -536,6 +536,11 @@ li {
     width: 19.0625rem;
     text-align: start;
   }
+  .intro__button-wrapper {
+    transition: 1.7s;
+    width: 17.1875rem;
+    position: relative;
+  }
 }
 
 .company {

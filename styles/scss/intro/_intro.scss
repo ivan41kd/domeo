@@ -185,5 +185,10 @@
    width: rem(305px);
    text-align: start;
   }
+  &__button-wrapper {
+   transition: 1.7s;
+   width: rem(275px);
+   position: relative;
+  }
  }
 }

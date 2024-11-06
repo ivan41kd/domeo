@@ -6,5 +6,5 @@ const enableAnim = () => {
  buttonWrapper.classList.add('end');
 };
 
-enableAnim();
+document.addEventListener('DOMContentLoaded', enableAnim);
 introButton.addEventListener('click', openPopup);
