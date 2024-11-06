@@ -492,6 +492,7 @@ li {
   .intro__video-wrapper {
     right: 2%;
     bottom: 59%;
+    z-index: -1;
   }
   .intro__video-wrapper video {
     width: 15.625rem;
