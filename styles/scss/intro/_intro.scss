@@ -186,14 +186,22 @@
    text-align: start;
   }
   &__button {
-   transition: 0s;
+   transition: 0.4s;
    width: rem(275px);
    position: relative;
   }
   &__button-wrapper {
-   transition: 0s;
+   transition: 0.4s;
    width: rem(275px);
    position: relative;
+  }
+  &__button-icon {
+   top: -8%;
+   left: -8%;
+   width: rem(78px);
+   height: rem(78px);
+   position: absolute;
+   transition: 1.7s;
   }
   &__button-wrapper.middle &__button-icon {
    left: 35%;

@@ -537,14 +537,22 @@ li {
     text-align: start;
   }
   .intro__button {
-    transition: 0s;
+    transition: 0.4s;
     width: 17.1875rem;
     position: relative;
   }
   .intro__button-wrapper {
-    transition: 0s;
+    transition: 0.4s;
     width: 17.1875rem;
     position: relative;
+  }
+  .intro__button-icon {
+    top: -8%;
+    left: -8%;
+    width: 4.875rem;
+    height: 4.875rem;
+    position: absolute;
+    transition: 1.7s;
   }
   .intro__button-wrapper.middle .intro__button-icon {
     left: 35%;
