@@ -537,7 +537,7 @@ li {
     text-align: start;
   }
   .intro__button-wrapper {
-    transition: 0;
+    transition: 0s;
     width: 17.1875rem;
     position: relative;
   }
