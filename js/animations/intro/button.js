@@ -1,9 +1,11 @@
 const introButton = document.querySelector('.intro__button');
 const enableAnim = () => {
  const buttonWrapper = document.querySelector('.intro__button-wrapper');
- buttonWrapper.classList.add('middle');
- buttonWrapper.classList.remove('middle');
- buttonWrapper.classList.add('end');
+ setTimeout(() => {
+  buttonWrapper.classList.add('middle');
+  buttonWrapper.classList.remove('middle');
+  buttonWrapper.classList.add('end');
+ }, 500);
 };
 
 document.addEventListener('DOMContentLoaded', enableAnim);
