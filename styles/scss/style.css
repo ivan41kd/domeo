@@ -536,6 +536,10 @@ li {
     width: 19.0625rem;
     text-align: start;
   }
+  .intro__button {
+    width: 17.1875rem;
+    position: relative;
+  }
   .intro__button-wrapper {
     transition: 0s;
     width: 17.1875rem;

@@ -185,6 +185,10 @@
    width: rem(305px);
    text-align: start;
   }
+  &__button {
+   width: rem(275px);
+   position: relative;
+  }
   &__button-wrapper {
    transition: 0s;
    width: rem(275px);
