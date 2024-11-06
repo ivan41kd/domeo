@@ -93,7 +93,7 @@ h4 {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
   color: currentColor;
 }
 
@@ -517,9 +517,9 @@ li {
     width: 21.5625rem;
     height: 30.4375rem;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
   .intro__gallery-text-wrapper {
     padding-left: 1.25rem;
@@ -537,12 +537,12 @@ li {
     text-align: start;
   }
   .intro__button {
-    transition: 0.4s;
+    transition: 1.4s;
     width: 17.1875rem;
     position: relative;
   }
   .intro__button-wrapper {
-    transition: 0.4s;
+    transition: 1.4s;
     width: 17.1875rem;
     position: relative;
   }
@@ -552,7 +552,7 @@ li {
     width: 4.875rem;
     height: 4.875rem;
     position: absolute;
-    transition: 0.4s;
+    transition: 1.4s;
   }
   .intro__button-wrapper.middle .intro__button-icon {
     left: 35%;

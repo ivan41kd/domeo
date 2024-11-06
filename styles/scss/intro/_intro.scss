@@ -166,7 +166,9 @@
    border-radius: rem(15px);
    width: rem(345px);
    height: rem(487px);
+   -o-object-fit: cover;
    object-fit: cover;
+   -o-object-position: center;
    object-position: center;
   }
 
@@ -186,12 +188,12 @@
    text-align: start;
   }
   &__button {
-   transition: 0.4s;
+   transition: 1.4s;
    width: rem(275px);
    position: relative;
   }
   &__button-wrapper {
-   transition: 0.4s;
+   transition: 1.4s;
    width: rem(275px);
    position: relative;
   }
@@ -201,7 +203,7 @@
    width: rem(78px);
    height: rem(78px);
    position: absolute;
-   transition: 0.4s;
+   transition: 1.4s;
   }
   &__button-wrapper.middle &__button-icon {
    left: 35%;
